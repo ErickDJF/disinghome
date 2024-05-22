@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Portafolio</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="shortcut icon" href="portafolio.ico" type="image/x-icon">
+<link rel="icon" href="portafolio.ico" type="image/x-icon">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+} 
+
+body {
+    background-color: white;
+    text-align: center;
+    font-family: "sans-serif";
+}
+
+.wrapper {
+    width: 80%; 
+    height: 100vh;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    width: 100%;
+}
+
+.slider ul {
+    list-style-type: none;
+    width: 400%;
+    display: flex;
+}
+
+.slider li {
+    width: 100;
+    float: left;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+}
+
+@keyframes slider {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    30% {margin-left: -100%;}
+    50% {margin-left: -100%;}
+    60% {margin-left: -200%;}
+    80% {margin-left: -200%;}
+    90% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+
+</style>
+</head>
+<body>
+<header>
+		<div class="logo">
+			<a href="index.html">
+			<img src="logo.png" alt="logo de la compañia" class="logo-img">
+			</a>
+				</div>
+             <h2 class="logo-nombre">Dising Home</h2>
+        <nav>
+            <ul class="menu">
+               
+                <li class="desplegable">
+                    <a href="#">Menú</a>
+                    <ul class="submenu">
+                <li><a href="acerca_de_nosotros.html">Acerca de nosotros</a></li>
+                <li><a href="portafolio.html">Portafolio</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                
+        </nav>
+  
+	</header>
+ <div class="wrapper">
+ 	<h1>Slider</h1>
+ 	<div class="slider">
+ 		<ul>
+ 			<li><img  src="c1.jpg"></li>
+ 			<li><img  src="c2.jpg"></li>
+ 			<li><img  src="c3.jpg"></li>
+ 			<li><img  src="c4.jpg"></li>
+ 		</ul>
+ 		
+ 	</div>
+ 	
+ </div>
+  
+
+    <footer>
+       <p>&copy; 2024 Dising Home. Toda la información en este sitio está registrada.</p>
+    </footer>
+
+</body>
+</html>
